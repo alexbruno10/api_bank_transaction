@@ -1,0 +1,31 @@
+{
+  "name": "api_bank_transactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "knex": "node --import tsx ./node_modules/knex/bin/cli.js",
+    "lint": "eslint src --ext .ts --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20.11.10",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.20.0",
+    "@typescript-eslint/parser": "^6.20.0",
+    "@typescript-eslint/typescript-estree": "^6.20.0",
+    "fastify": "^4.26.0",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "resolutions": {
+    "@typescript-eslint/typescript-estree": "^5.59.2"
+  }
+}
