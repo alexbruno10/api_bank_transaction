@@ -25,3 +25,7 @@ API desenvolvida em Node.js para realizar transações financeiras
 - [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito que irá subtrair o valor;
 - [x] Deve ser possível identificarmos o usuário entre as requisições;
 - [x] O usuario só pode visualizar transações o qual ele criou;
+
+
+
+<p align="center">Desenvolvido por Alex Bruno</p>
